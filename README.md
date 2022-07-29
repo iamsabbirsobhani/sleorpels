@@ -1,5 +1,5 @@
-## Sleorpels Strapi Backend
+# **Sleorpels** Strapi Backend
 
-## Database ER Model
+### Database ER Model
 
-![ER Model]("./public/ermodel.png" "ER MODEL")
+![ER Model](https://github.com/iamsabbirsobhani/sleorpels/blob/main/public/ermodel.png)
