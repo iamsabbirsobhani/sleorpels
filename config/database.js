@@ -1,5 +1,6 @@
 const path = require("path");
 
+// production database
 module.exports = ({ env }) => ({
   connection: {
     client: "postgres",
@@ -20,6 +21,8 @@ module.exports = ({ env }) => ({
     debug: false,
   },
 });
+
+// development database
 // module.exports = ({ env }) => ({
 //   connection: {
 //     client: "postgres",
