@@ -64,6 +64,12 @@
       "max": 100,
       "required": false,
       "default": 0
+    },
+    "type": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::type.type",
+      "inversedBy": "products"
     }
   }
 }
