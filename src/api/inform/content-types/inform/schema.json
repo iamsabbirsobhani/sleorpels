@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "informs",
+  "info": {
+    "singularName": "inform",
+    "pluralName": "informs",
+    "displayName": "Inform"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "msg": {
+      "type": "text",
+      "required": true
+    },
+    "condition": {
+      "type": "text"
+    }
+  }
+}
