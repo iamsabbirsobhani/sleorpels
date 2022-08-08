@@ -4,16 +4,24 @@
   "info": {
     "singularName": "hidden-offer",
     "pluralName": "hidden-offers",
-    "displayName": "HiddenOffer",
-    "description": ""
+    "displayName": "HiddenOffer"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "msg": {
+    "offerTitle": {
       "type": "richtext"
+    },
+    "offerDetails": {
+      "type": "richtext"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "string"
     }
   }
 }
