@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "hidden_offers",
+  "info": {
+    "singularName": "hidden-offer",
+    "pluralName": "hidden-offers",
+    "displayName": "HiddenOffer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "msg": {
+      "type": "text"
+    }
+  }
+}
