@@ -4,7 +4,8 @@
   "info": {
     "singularName": "hidden-offer",
     "pluralName": "hidden-offers",
-    "displayName": "HiddenOffer"
+    "displayName": "HiddenOffer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,7 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "msg": {
-      "type": "text"
+      "type": "richtext"
     }
   }
 }
