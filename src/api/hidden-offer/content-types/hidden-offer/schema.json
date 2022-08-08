@@ -26,6 +26,9 @@
     },
     "borderColor": {
       "type": "string"
+    },
+    "titleColor": {
+      "type": "string"
     }
   }
 }
