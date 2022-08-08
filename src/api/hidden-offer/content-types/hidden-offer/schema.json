@@ -4,7 +4,8 @@
   "info": {
     "singularName": "hidden-offer",
     "pluralName": "hidden-offers",
-    "displayName": "HiddenOffer"
+    "displayName": "HiddenOffer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,6 +22,9 @@
       "type": "string"
     },
     "backgroundColor": {
+      "type": "string"
+    },
+    "borderColor": {
       "type": "string"
     }
   }
