@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_cover_pics",
+  "info": {
+    "singularName": "home-cover-pic",
+    "pluralName": "home-cover-pics",
+    "displayName": "HomeCoverPic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "desktop": {
+      "type": "text"
+    },
+    "mobile": {
+      "type": "string"
+    }
+  }
+}
