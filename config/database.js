@@ -5,13 +5,13 @@ module.exports = ({ env }) => ({
   connection: {
     client: "postgres",
     connection: {
-      host: env("DATABASE_HOST", "ec2-54-225-234-165.compute-1.amazonaws.com"),
+      host: env("DATABASE_HOST", "ec2-54-159-175-38.compute-1.amazonaws.com"),
       port: env.int("DATABASE_PORT", 5432),
-      database: env("DATABASE_NAME", "dflhdq2v9hllpg"),
-      user: env("DATABASE_USERNAME", "bkexsllesgmqmj"),
+      database: env("DATABASE_NAME", "dd7vgjjm16e9f1"),
+      user: env("DATABASE_USERNAME", "meohydeoxmbzib"),
       password: env(
         "DATABASE_PASSWORD",
-        "2047ea7bca289d11fa9994941ca74eb4c93059a2f4c2cae4b32064ccf88596f3"
+        "39f76ad4527b2a168d1978a94ee4f54360ed19ed7eabf57c0059d416f24addff"
       ),
       schema: env("DATABASE_SCHEMA", "public"), // Not required
       ssl: {
