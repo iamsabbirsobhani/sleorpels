@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "men_banners",
+  "info": {
+    "singularName": "men-banner",
+    "pluralName": "men-banners",
+    "displayName": "MenBanner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "deskBannerUrl": {
+      "type": "text"
+    },
+    "mobileBannerUrl": {
+      "type": "text"
+    }
+  }
+}
