@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "women_homes",
+  "info": {
+    "singularName": "women-home",
+    "pluralName": "women-homes",
+    "displayName": "WomenHome",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainBannerUrlMobile": {
+      "type": "text"
+    },
+    "imgUrlS21": {
+      "type": "text"
+    },
+    "imgUrlS22": {
+      "type": "text"
+    },
+    "imgUrlS23": {
+      "type": "text"
+    },
+    "imgUrlS31": {
+      "type": "text"
+    },
+    "imgUrlS32": {
+      "type": "string"
+    },
+    "imgUrlS24": {
+      "type": "text"
+    },
+    "mainBannerUrlDesktop": {
+      "type": "text"
+    }
+  }
+}
