@@ -35,6 +35,33 @@
     },
     "mainBannerUrlDesktop": {
       "type": "text"
+    },
+    "isCustom": {
+      "type": "boolean"
+    },
+    "customMainBannerDesktop": {
+      "type": "text"
+    },
+    "customMainBannerMobile": {
+      "type": "text"
+    },
+    "imgUrlS21C": {
+      "type": "text"
+    },
+    "imgUrlS22C": {
+      "type": "string"
+    },
+    "imgUrlS23C": {
+      "type": "text"
+    },
+    "imgUrlS24C": {
+      "type": "text"
+    },
+    "imgUrlS31C": {
+      "type": "text"
+    },
+    "imgUrlS32C": {
+      "type": "text"
     }
   }
 }
