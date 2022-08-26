@@ -26,6 +26,15 @@
     },
     "borderColor": {
       "type": "string"
+    },
+    "subtitle": {
+      "type": "richtext"
+    },
+    "isLuckGIF": {
+      "type": "boolean"
+    },
+    "condition": {
+      "type": "text"
     }
   }
 }
