@@ -11,6 +11,7 @@ module.exports = [
         "https://sleorpels.vercel.app",
         "https://sleorpels.herokuapp.com",
         "http://192.168.0.100:3000",
+        "https://sleorpels.onrender.com",
       ],
     },
   },
