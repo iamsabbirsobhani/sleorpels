@@ -7,6 +7,7 @@ module.exports = [
       enabled: true,
       origin: [
         "http://localhost:1337",
+        "http://192.168.0.100:1337",
         "http://localhost:3000",
         "https://sleorpels.vercel.app",
         "https://sleorpels.herokuapp.com",

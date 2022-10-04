@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/ef98c3c1-a29d-4d84-bd04-ee9c1f70e359/AppServices/subscriptions/ef98c3c1-a29d-4d84-bd04-ee9c1f70e359/resourceGroups/cloud-shell-storage-southeastasia/providers/Microsoft.Web/sites/sleorpels-backend",
+    "appService.deploySubpath": "."
+}
