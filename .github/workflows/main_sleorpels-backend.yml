@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'sleorpels-backend'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D7B49CDA228A4CD0A17949720217D6EB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9240DE09884D41689785F62D4D33E4C8 }}
           package: .
