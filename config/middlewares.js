@@ -16,6 +16,7 @@ module.exports = [
         "https://sleorpels-backend.azurewebsites.net",
         "https://sleorpels-bend.azurewebsites.net",
         "http://192.168.0.161:1337",
+        "https://sleorpels-bend.onrender.com"
       ],
     },
   },
