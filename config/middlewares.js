@@ -6,6 +6,7 @@ module.exports = [
     config: {
       enabled: true,
       origin: [
+        "https://sleorpels-bend.onrender.com",
         "http://localhost:1337",
         "http://192.168.0.100:1337",
         "http://localhost:3000",
@@ -16,7 +17,6 @@ module.exports = [
         "https://sleorpels-backend.azurewebsites.net",
         "https://sleorpels-bend.azurewebsites.net",
         "http://192.168.0.161:1337",
-        "https://sleorpels-bend.onrender.com"
       ],
     },
   },
