@@ -42,21 +42,45 @@ const path = require("path");
 //   },
 // });
 
-// development database
+// production database elephentsql postgres gen-bd-pg
 module.exports = ({ env }) => ({
   connection: {
     client: "postgres",
     connection: {
-      host: env("DATABASE_HOST", "127.0.0.1"),
+      host: env("DATABASE_HOST", "hansken.db.elephantsql.com"),
       port: env.int("DATABASE_PORT", 5432),
-      database: env("DATABASE_NAME", "sleorpels"),
-      user: env("DATABASE_USERNAME", "postgres"),
-      password: env("DATABASE_PASSWORD", "Lamq0270"),
+      database: env("DATABASE_NAME", "fuyuuidp"),
+      user: env("DATABASE_USERNAME", "fuyuuidp"),
+      password: env("DATABASE_PASSWORD", "WeCCAqLi3U5s_0mS0rtP8hiRcbqPWgbC"),
       schema: env("DATABASE_SCHEMA", "public"), // Not required
       // ssl: {
       //   rejectUnauthorized: env.bool("DATABASE_SSL_SELF", false), // For self-signed certificates
       // },
+      ssl: env("DATABASE_SSL", true),
+    },
+    pool: {
+      max: 5,
+      min: 0
     },
     debug: false,
   },
 });
+
+// development database
+// module.exports = ({ env }) => ({
+//   connection: {
+//     client: "postgres",
+//     connection: {
+//       host: env("DATABASE_HOST", "127.0.0.1"),
+//       port: env.int("DATABASE_PORT", 5432),
+//       database: env("DATABASE_NAME", "sleorpels"),
+//       user: env("DATABASE_USERNAME", "postgres"),
+//       password: env("DATABASE_PASSWORD", "Lamq0270"),
+//       schema: env("DATABASE_SCHEMA", "public"), // Not required
+//       // ssl: {
+//       //   rejectUnauthorized: env.bool("DATABASE_SSL_SELF", false), // For self-signed certificates
+//       // },
+//     },
+//     debug: false,
+//   },
+// });
