@@ -1,4 +1,4 @@
-FROM node:16-alpine
+FROM node:20-alpine
 WORKDIR /sleorpels
 COPY . .
 RUN npm install --production && npm run build
