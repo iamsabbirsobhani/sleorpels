@@ -2,7 +2,7 @@
   "name": "sleorpels",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Sleorpels",
   "scripts": {
     "develop": "strapi develop",
     "start": "node node_modules/@strapi/strapi/bin/strapi.js start",
@@ -10,21 +10,21 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-graphql": "4.5.1",
-    "@strapi/plugin-i18n": "4.5.1",
-    "@strapi/plugin-users-permissions": "4.5.1",
-    "@strapi/strapi": "4.5.1",
-    "better-sqlite3": "7.4.6",
+    "@strapi/plugin-graphql": "4.13.7",
+    "@strapi/plugin-i18n": "4.13.7",
+    "@strapi/plugin-users-permissions": "4.13.7",
+    "@strapi/strapi": "4.13.7",
+    "better-sqlite3": "8.6.0",
     "pg": "^8.7.3"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Sabbir Sobhani"
   },
   "strapi": {
     "uuid": "98328c9c-9769-4c86-a09f-9b540605691e"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
+    "node": ">=12.x.x <=20.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
