@@ -119,7 +119,6 @@ exports
 build
 .strapi-updater.json
 
-.env
-.env.example
-.dev.dev
-Dockerfile
+*.env
+*.env.example
+*.dev.dev
